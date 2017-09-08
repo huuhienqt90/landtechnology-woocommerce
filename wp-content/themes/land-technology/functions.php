@@ -159,9 +159,13 @@ if( ! class_exists('LandTechnologyTheme') ):
             wp_enqueue_style( 'font-elegant', get_theme_file_uri( '/assets/fonts/font-elegant.css' ) );
             wp_enqueue_style( 'style', get_theme_file_uri( '/assets/css/style.css' ), array('frameworks') );
 
+            // Add script
+            wp_enqueue_script( 'jquery-ui', get_theme_file_uri( 'assets/js/jquery-ui.min.js' ), array( 'jquery' ), null, true );
             wp_enqueue_script( 'bootstrap', get_theme_file_uri( 'assets/js/bootstrap.min.js' ), array( 'jquery' ), '3.3.7', true );
             wp_enqueue_script( 'slick', get_theme_file_uri( 'assets/js/slick.min.js' ), array( 'jquery' ), null, true );
             wp_enqueue_script( 'slider-slick', get_theme_file_uri( 'assets/js/slider-slick.js' ), array( 'jquery' ), null, true );
+            wp_enqueue_script( 'price', get_theme_file_uri( 'assets/js/price.js' ), array( 'jquery' ), null, true );
+            wp_enqueue_script( 'grid-list-show', get_theme_file_uri( 'assets/js/grid-list-show.js' ), array( 'jquery' ), null, true );
         }
 
         /**
