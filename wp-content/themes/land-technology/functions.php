@@ -157,6 +157,7 @@ if( ! class_exists('LandTechnologyTheme') ):
             // Add custom fonts, used in the main stylesheet.
             wp_enqueue_style( 'frameworks', get_theme_file_uri( '/assets/css/frameworks.css' ) );
             wp_enqueue_style( 'font-elegant', get_theme_file_uri( '/assets/fonts/font-elegant.css' ) );
+            wp_enqueue_style( 'jquery-ui', get_theme_file_uri( '/assets/fonts/jquery-ui.min' ) );
             wp_enqueue_style( 'style', get_theme_file_uri( '/assets/css/style.css' ), array('frameworks') );
 
             // Add script
