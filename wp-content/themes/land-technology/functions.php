@@ -1,14 +1,13 @@
 <?php
 /**
  *
- * Codestar Framework
- * A Lightweight and easy-to-use WordPress Options Framework
+ * Land Technology Theme
  *
  */
 
-if( ! class_exists('PortfolioTheme') ):
+if( ! class_exists('LandTechnologyTheme') ):
 
-	class PortfolioTheme{
+	class LandTechnologyTheme{
 
 		/**
 		 * Portfolio Constructor
@@ -25,7 +24,7 @@ if( ! class_exists('PortfolioTheme') ):
 		 * Define Constants.
 		 */
 		public function defineConstants(){
-			$this->define('THEME_TEXTDOMAIN', 'base-theme');
+			$this->define('THEME_TEXTDOMAIN', 'land-technology');
 		}
 
 		/**
@@ -176,7 +175,7 @@ if( ! class_exists('PortfolioTheme') ):
 		}
 
 		/**
-		 * Change the shortcode options 
+		 * Change the shortcode options
 		 */
 		public function shortcodeOptions($options){
 			return include('cs-framework-configs/shortcode.options.php');
@@ -191,4 +190,4 @@ if( ! class_exists('PortfolioTheme') ):
 	}
 
 endif;
-new PortfolioTheme();
+new LandTechnologyTheme();
