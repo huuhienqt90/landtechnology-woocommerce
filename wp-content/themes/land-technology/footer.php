@@ -99,6 +99,7 @@
                         </ul>
                     </div>
                 </div>
+            <?php endif; ?>
             </div> <!-- .row -->
         </div> <!-- .container -->
     </div> <!-- .footer-end -->
