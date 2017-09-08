@@ -143,7 +143,7 @@ if( ! class_exists('LandTechnologyTheme') ):
                 'name'          => __( 'Footer-End', THEME_TEXTDOMAIN ),
                 'id'            => 'footer-sidebar',
                 'description'   => __( 'Add widgets here to appear in your footer.', THEME_TEXTDOMAIN ),
-                'before_widget' => '<section id="%1$s" class="widget %2$s">',
+                'before_widget' => '<section id="%1$s" class="widget col-md-6 col-sm-6 %2$s">',
                 'after_widget'  => '</section>',
                 'before_title'  => '<h2 class="widget-title">',
                 'after_title'   => '</h2>',

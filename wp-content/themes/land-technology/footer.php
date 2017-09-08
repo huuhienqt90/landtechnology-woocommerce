@@ -80,6 +80,9 @@
     <div id="footer-end">
         <div class="container">
             <div class="row">
+                <?php if ( is_active_sidebar( 'Footer-End' ) ) : ?>
+                    <?php dynamic_sidebar( 'Footer-End' ); ?>
+                <?php else : ?>
                 <div class="col-md-6 col-sm-6">
                     <div class="text-footer-end">
                         <p>Copyright © 2016 <a href="#" title="title footer end">Erentheme</a> .All Right Reserved.</p>
